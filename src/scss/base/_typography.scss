@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains styles related to typography.
+// -----------------------------------------------------------------------------
+
+/**
+ * General variables.
+ */
+$heading-font-stack: "Cormorant Garamond", serif;
+$body-font-stack: "Montserrat", "Inter", "Open Sans", "Helvetica Neue Light",
+  "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+
+/**
+* Global styles.
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-stack;
+}
+
+p {
+  font-family: $body-font-stack;
+}
