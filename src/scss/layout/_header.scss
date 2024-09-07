@@ -1,0 +1,16 @@
+@use "../themes/default" as theme;
+
+#header {
+  height: 88px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: map-get(theme.$colors, "neutrals", "white");
+}
+
+#header-logo {
+  height: 33%;
+}

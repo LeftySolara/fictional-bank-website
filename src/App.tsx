@@ -1,5 +1,6 @@
+import Header from "./components/Header/Header";
 import "./scss/main.scss";
 
-const App = () => <h1>Hello World!</h1>;
+const App = () => <Header />;
 
 export default App;
